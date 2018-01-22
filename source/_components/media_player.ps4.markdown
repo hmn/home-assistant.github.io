@@ -44,11 +44,11 @@ media_player:
 Configuration variables:
 
 - **host** (*Required*): The IP of the PS4, e.g. `10.0.0.4`.
-- **name** (*Optional*): Device name (Default: Playstation 4).
-- **filename** (*Optional*): The filename where the credentials for the PS4 should be stored. This path is relative to Home Assistant's config directory. It defaults to `ps4.conf`.
+- **name** (*Optional*): Device name (Default: `Playstation 4`).
+- **filename** (*Optional*): The filename where the credentials for the PS4 should be stored. This path is relative to Home Assistant's config directory. (Default: `ps4.conf`).
 - **credentials_filename** (*Optional*): Credentials filename from ps4-waker.
-- **games_filename** (*Optional*): Games json file, data file containing the games started on your Playstation (Default: ps4-games.json)
-- local_store: local www folder to use for locally saved images. Load images from local www dir. Naming convention for images is www/{local_store folder}/{titleid}.jpg (Default: games)
+- **games_filename** (*Optional*): Games json file, data file containing the games started on your Playstation (Default: `ps4-games.json`)
+- local_store: local www folder to use for locally saved images. Load images from local www dir. Naming convention for images is `www/{local_store folder}/{titleid}.jpg` (Default: `games`)
 
 A full configuration example will look like the sample below:
 
